@@ -13,6 +13,7 @@ namespace Fauna
             Fish flounder = new Fish { Name = "Flounder", Length = 30, Weight = 0.2 };
             flounder.Parameters();
             flounder.CanSwim();
+            flounder.EatShellfish();
             Space();
 
             Cat cat = new Cat { Name = "Cat", Length = 50, Weight = 5 };

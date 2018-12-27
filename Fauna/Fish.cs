@@ -20,5 +20,9 @@ namespace Fauna
         {
             Console.WriteLine($"{Name} can eat  {animal.Name}");
         }
+        public void EatShellfish()
+        {
+            Console.WriteLine($"{Name} can eat  shellfish");
+        }
     }
 }
