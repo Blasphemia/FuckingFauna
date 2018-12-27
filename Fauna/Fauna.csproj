@@ -43,8 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Bird.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Cow.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Dove.cs" />
+    <Compile Include="Eagle.cs" />
+    <Compile Include="Herboivores.cs" />
+    <Compile Include="Fish.cs" />
+    <Compile Include="ICanFly.cs" />
+    <Compile Include="ICanGo.cs" />
+    <Compile Include="ICanSwim.cs" />
+    <Compile Include="IEatAnimal.cs" />
+    <Compile Include="IEatGrass.cs" />
+    <Compile Include="Mammal.cs" />
+    <Compile Include="Nightingale.cs" />
+    <Compile Include="Predator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rabbit.cs" />
+    <Compile Include="Shark.cs" />
+    <Compile Include="WhatAnimalsDo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -10,6 +10,12 @@ namespace Fauna
     {
         static void Main(string[] args)
         {
+            var whatAnimalsDo = new WhatAnimalsDo();
+            whatAnimalsDo.AnimalsActivity();
+
+
+
+            Console.ReadLine();
         }
     }
 }
